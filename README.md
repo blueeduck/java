@@ -1,6 +1,13 @@
-# kitchensink: A Spring boot migrated application
-The kitchensink quickstart demonstrates a Spring boot web-enabled database application using JSF,Spring boot, JPA, and Bean Validation.
+# KitchenSink Migration to Spring Boot
 
+## Overview
+This is a migration of the legacy 'kitchensink' JBoss application from the Red Hat JBoss EAP Quickstarts repository to the Spring Boot framework.
+
+## Prerequisites
+- Java 21
+- Maven 3.x
+- MongoDB (optional stretch goal)
+  
 # What is it?
 The kitchensink quickstart is a deployable Spring Boot project with Maven build.
 
