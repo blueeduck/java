@@ -21,4 +21,26 @@ All you need to build this project is Java 21.0 (Java SDK 21) or later, Spring b
 
 # Building and running the quickstart Spring boot application
 
+# Build, Test and Run the Spring boot application
+This command builds the Maven project and packages it into a JAR, WAR, etc.:
+mvn package
+
+This command runs the test cases of the project:
+mvn test
+
+Run the Spring boot application using Maven:
+$ mvn spring-boot:run
+
+# Access the Application
+
+# Register the member
+$ curl -X POST http://localhost:8080/kitchensink/member {"id" :2, "email" : "abcd@gmail.com", "name" : "Pramod", "phoneNumber" : "7982151513"}
+
+# Retrive all members
+$ curl -X GET http://localhost:8080/kitchensink/members
+
+# Retrive specific member
+$ curl -X GET http://localhost:8080/kitchensink/members/1
+
+
 
